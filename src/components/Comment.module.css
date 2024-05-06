@@ -1,13 +1,7 @@
 .comment {
-  margin-top: 1.5rem;
+  margin-top: 5rem;
   display: flex;
   gap: 1rem;
-}
-
-.comment > img {
-  width: 3rem;
-  height: 3rem;
-  border-radius: 8px;
 }
 
 .commentBox {
@@ -26,15 +20,15 @@
   justify-content: space-between;
 }
 
-.authorAndTime strong {
+.authorAndTimes strong{
   display: block;
   font-size: 0.875rem;
   line-height: 1.6;
 }
 
-.authorAndTime time {
+.authorAndTimes time{
   display: block;
-  font-size: 0.75rem;
+  font-size: .75rem;
   line-height: 1.6;
   color: var(--gray-400);
 }
@@ -45,8 +39,7 @@
   color: var(--gray-400);
   cursor: pointer;
   line-height: 0;
-  border-radius: 4px;
-  transition: color 0.2s;
+  border-radius: 2px;
 }
 
 .commentContent header button:hover {
@@ -67,10 +60,11 @@
   border: 0;
   color: var(--gray-400);
   cursor: pointer;
+
   display: flex;
   align-items: center;
-  transition: color 0.1s;
-  border-radius: 4px;
+
+  border-radius: 2px;
 }
 
 .commentBox footer button:hover {
@@ -82,6 +76,6 @@
 }
 
 .commentBox footer button span::before {
-  content: "\2022";
-  padding: 0 0.25rem;
+  content: '\2022';
+  padding: 0 .25rem;
 }
